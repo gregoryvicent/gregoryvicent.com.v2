@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Javascript and typescript format
+[*.{js,jsx,ts,tsx}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+# Json format
+[*.json]
+charset = utf-8
+indent_size = 4
+
+# CSS format
+[*.css]
+charset = utf-8
+indent_size = 2
