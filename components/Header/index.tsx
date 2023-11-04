@@ -1,3 +1,6 @@
+/**
+ * Componente de encabezado que muestra la navegación y los enlaces a las redes sociales.
+ */
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

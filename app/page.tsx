@@ -4,6 +4,12 @@ import Header from '../components/Header'
 import imageMe from '../public/images/micara.jpg'
 import imageLogo from '../public/images/logogregory.png'
 
+/**
+ * Componente de la página principal.
+ *
+ * @returns El componente de la página principal.
+ */
+
 export default function Home() {
   return (
     <main className="h-screen">
