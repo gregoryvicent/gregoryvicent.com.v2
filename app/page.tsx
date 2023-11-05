@@ -13,7 +13,7 @@ import imageLogo from '../public/images/logogregory.png'
 export default function Home() {
   return (
     <main className="h-screen grid grid-rows-2">
-      <section className="grid grid-cols-1 h-screen py-16 px-5 min-[500px]:px-20 sm:px-40 md:grid-rows-4 md:px-8 md:py-3">
+      <section className="grid grid-cols-1 h-screen py-10 px-5 min-[500px]:px-20 sm:px-40 md:grid-rows-4 md:px-8 md:py-3">
         <div className="grid md:grid-cols-2 md:grid-rows-1 md:row-start-2 md:row-end-4 md:w-10/12 md:justify-self-center lg:w-9/12 xl:w-8/12 ">
           <div className="self-start md:col-start-2 md:col-end-3 md:flex md:justify-end md:mt-10 ">
             <Image
@@ -36,9 +36,6 @@ export default function Home() {
           <Header />
         </div>
       </section>
-      <footer className="self-end p-3">
-        <p className="text-center font-light">✨ Creemos algo increible juntos ✨</p>
-      </footer>
     </main>
   )
 }
