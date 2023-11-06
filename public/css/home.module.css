@@ -1,0 +1,33 @@
+@keyframes FateInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes FateInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.FateInRight {
+  animation: FateInRight 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.FateInLeft {
+  animation: FateInLeft 1s ease-out;
+  animation-fill-mode: forwards;
+}

@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 import HeaderTrabajemos from "@/components/pages/trabajemos/HeaderTrabajemos"
 import DescriptionTrabajemos from "@/components/pages/trabajemos/DescriptionTrabajemos"
 import ICanHelpYouTrabajemos from "@/components/pages/trabajemos/ICanHelpYouTrabajemos"
@@ -21,6 +22,7 @@ export default function Trabajemos() {
       <ICanHelpYouTrabajemos />
       <ServicesTrabajemos />
       <ContactMeTrabajemos />
+      <Footer />
     </main>
   )
 }

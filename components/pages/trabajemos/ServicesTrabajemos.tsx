@@ -11,6 +11,11 @@ import {
   faClock
 } from "@fortawesome/free-regular-svg-icons"
 
+/**
+ * Componente que muestra los servicios ofrecidos en la página "Trabajemos juntos" del sitio web.
+ * @returns JSX.Element
+ */
+
 const SevicesTrabajemos = () => {
   return (
     <section className="p-10 sm:px-32 lg:px-56">

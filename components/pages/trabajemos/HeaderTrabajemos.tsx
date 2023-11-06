@@ -1,3 +1,8 @@
+/**
+ * Componente que muestra el encabezado de la sección "Trabajemos Juntos".
+ *
+ * @returns JSX.Element
+ */
 const HeaderTrabajemos = () => {
   return (
     <section className="bg-[url('/images/trabajemosimage1.jpg')] bg-fixed w-full h-96 my-10 bg-cover flex justify-center items-center bg-center md:h-[550px]">
