@@ -18,16 +18,18 @@
 
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0), rotate(-12deg);
   }
 }
 
 .FateInRight {
   animation: FateInRight 1s ease-out;
-  animation-fill-mode: forwards;
+  animation-delay: .3s;
+  animation-fill-mode: both;
 }
 
 .FateInLeft {
   animation: FateInLeft 1s ease-out;
-  animation-fill-mode: forwards;
+  animation-delay: .3s;
+  animation-fill-mode: both;
 }
