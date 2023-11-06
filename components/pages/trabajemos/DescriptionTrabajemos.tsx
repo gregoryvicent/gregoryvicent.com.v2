@@ -2,6 +2,10 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
+/**
+ * Componente que muestra la descripción de Gregory Vicent y sus habilidades en programación web.
+ * @returns {JSX.Element} El componente de la descripción.
+ */
 const DescriptionTrabajemos = () => {
   return (
     <section className="px-10 sm:px-32 lg:px-56 lg:mt-20">

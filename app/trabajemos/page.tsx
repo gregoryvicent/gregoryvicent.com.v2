@@ -5,6 +5,11 @@ import ICanHelpYouTrabajemos from "@/components/pages/trabajemos/ICanHelpYouTrab
 import ServicesTrabajemos from "@/components/pages/trabajemos/ServicesTrabajemos"
 import ContactMeTrabajemos from "@/components/pages/trabajemos/ContactMeTrabajemos"
 
+/**
+ * Componente de la página "Trabajemos" que muestra información sobre los servicios ofrecidos y un formulario de contacto.
+ * @returns El componente de la página "Trabajemos".
+ */
+
 export default function Trabajemos() {
   return (
     <main>

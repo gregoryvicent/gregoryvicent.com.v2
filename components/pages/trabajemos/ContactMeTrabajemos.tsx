@@ -1,3 +1,7 @@
+/**
+ * Componente que muestra información de contacto y enlaces a redes sociales.
+ * @returns {JSX.Element} Elemento JSX que muestra la información de contacto y enlaces a redes sociales.
+ */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,

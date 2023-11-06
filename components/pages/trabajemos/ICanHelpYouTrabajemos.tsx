@@ -1,3 +1,9 @@
+/**
+ * Componente que muestra información sobre cómo puedo ayudar en el desarrollo de aplicaciones web, tanto en el lado del Front-end como en el Back-end.
+ * Utiliza tecnologías como HTML, CSS, Tailwind CSS, JavaScript, React, Python y Django.
+ *
+ * @returns {JSX.Element} Componente de React que muestra información sobre cómo puedo ayudar en el desarrollo de aplicaciones web.
+ */
 const ICanHelpYouTrabajemos = () => {
   return (
       <section className="p-10 sm:px-32 md:my-20 lg:px-56">
