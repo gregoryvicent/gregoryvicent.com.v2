@@ -1,5 +1,8 @@
 import Image, { StaticImageData } from "next/image";
 
+/**
+ * Propiedades para el componente CardProjects.
+ */
 type CardProjectsProps = {
   img: string | StaticImageData;
   name: string;
@@ -8,6 +11,15 @@ type CardProjectsProps = {
   githubUrl: string;
 }
 
+/**
+ * Componente que representa una tarjeta de proyecto con una imagen, nombre, descripción y enlaces a la versión en vivo y al repositorio de GitHub.
+ * @param img La imagen del proyecto.
+ * @param name El nombre del proyecto.
+ * @param description La descripción del proyecto.
+ * @param liveUrl El enlace a la versión en vivo del proyecto.
+ * @param githubUrl El enlace al repositorio de GitHub del proyecto.
+ * @returns Una tarjeta de proyecto con la imagen, nombre, descripción y enlaces correspondientes.
+ */
 const CardProjects: React.FC<CardProjectsProps> = ({ img, name, description, liveUrl, githubUrl }) => {
   return (
     <article className="my-10 max-w-md mx-auto">

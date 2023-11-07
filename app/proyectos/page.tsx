@@ -4,6 +4,11 @@ import CardProjects from '@/components/CardProjects'
 import imageProject1 from '@/public/images/jpg/project1.png'
 import imageProject2 from '@/public/images/jpg/project2.png'
 
+/**
+ * Componente que muestra una sección con tarjetas de proyectos.
+ * @returns {JSX.Element} Elemento JSX que contiene la sección de proyectos.
+ */
+
 export default function Proyectos() {
   return (
     <section className="my-10 min-h-[59vh]">
