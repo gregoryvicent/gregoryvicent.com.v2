@@ -1,5 +1,12 @@
-import Header from "@/components/Header"
+/**
+ * Componentes de genericos.
+ */
+import HeaderWrapper from "@/components/HeaderWrapper"
 import Footer from "@/components/Footer"
+
+/**
+ * Componentes de la página "Trabajemos" que muestra información sobre los servicios ofrecidos y un formulario de contacto.
+ */
 import HeaderTrabajemos from "@/components/pages/trabajemos/HeaderTrabajemos"
 import DescriptionTrabajemos from "@/components/pages/trabajemos/DescriptionTrabajemos"
 import ICanHelpYouTrabajemos from "@/components/pages/trabajemos/ICanHelpYouTrabajemos"
@@ -13,16 +20,16 @@ import ContactMeTrabajemos from "@/components/pages/trabajemos/ContactMeTrabajem
 
 export default function Trabajemos() {
   return (
-    <main>
-      <div className="px-5 min-[500px]:px-20 sm:px-40 md:grid-rows-4 md:px-8 md:py-3">
-        <Header />
-      </div>
-      <HeaderTrabajemos />
-      <DescriptionTrabajemos />
-      <ICanHelpYouTrabajemos />
-      <ServicesTrabajemos />
-      <ContactMeTrabajemos />
-      <Footer />
-    </main>
+    <>
+      <HeaderWrapper />
+      <main>
+        <HeaderTrabajemos />
+        <DescriptionTrabajemos />
+        <ICanHelpYouTrabajemos />
+        <ServicesTrabajemos />
+        <ContactMeTrabajemos />
+        <Footer />
+      </main>
+    </>
   )
 }

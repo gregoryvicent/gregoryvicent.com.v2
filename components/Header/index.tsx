@@ -17,7 +17,7 @@ const Header = () => {
         <ul className="flex justify-around my-7 md:pt-3 lg:justify-evenly">
           <li><Link className="font-light text-blue-300 p-3 rounded-md shadow-black shadow-lg transition-all duration-300 ease-in-out hover:shadow-blue-300 md:text-lg" href="/">Home</Link></li>
           <li><Link className="font-light text-blue-300 p-3 rounded-md shadow-black shadow-lg transition-all duration-300 ease-in-out hover:shadow-blue-300 md:text-lg" href="/trabajemos">Trabajemos</Link></li>
-          <li><Link className="font-light text-blue-300 p-3 rounded-md shadow-black shadow-lg transition-all duration-300 ease-in-out hover:shadow-blue-300 md:text-lg" href="/">Proyectos</Link></li>
+          <li><Link className="font-light text-blue-300 p-3 rounded-md shadow-black shadow-lg transition-all duration-300 ease-in-out hover:shadow-blue-300 md:text-lg" href="/proyectos">Proyectos</Link></li>
         </ul>
       </nav>
       <div className="md:mt-10 md:justify-self-end">
