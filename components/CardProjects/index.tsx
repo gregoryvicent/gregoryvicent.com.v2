@@ -10,7 +10,7 @@ type CardProjectsProps = {
 
 const CardProjects: React.FC<CardProjectsProps> = ({ img, name, description, liveUrl, githubUrl }) => {
   return (
-    <article>
+    <article className="my-10 max-w-md mx-auto">
       <div className="relative rounded-lg shadow-xl shadow-black">
         <Image src={img} alt={name} className="w-full h-64 object-cover rounded-lg"/>
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 rounded-lg flex items-center justify-center">
