@@ -18,7 +18,7 @@ export default function Proyectos() {
           img={ imageProject1 }
           name="Portafolio Web"
           description="Elegante portafolio web de una sola página"
-          liveUrl="https://wondrous-bubblegum-0561fe.netlify.app/"
+          liveUrl="https://gregoryvicent-template-single-page.netlify.app"
           githubUrl="https://github.com/gregoryvicent/website-template01-singlepage"
         />
         <CardProjects
